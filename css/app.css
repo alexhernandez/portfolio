@@ -1,0 +1,32 @@
+body {
+  background-color: #D1DBBD;
+  color: rgba(255,255,255, 1);
+}
+
+.container {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  padding: 20px;
+}
+
+.bg--white { background-color: #FCFFF5; }
+.bg--cream { background-color: #D1DBBD; }
+.bg--light-blue { background-color: #91AA9D; }
+.bg--blue { background-color: #3E606F; }
+.bg--dark-blue { background-color: #193441; }
+.txt--white { color: #FCFFF5; }
+.txt--cream { color: #D1DBBD; }
+.txt--light-blue { color: #91AA9D; }
+.txt--blue { color: #3E606F; }
+.txt--dark-blue { color: #193441; }
+
+
