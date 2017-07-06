@@ -35,10 +35,11 @@ body {
 .content {
   margin: 0 auto;
   max-width: 800px;
-  padding: 50px;
+  padding: 25px;
   text-align: center;
 
   @media only screen and (min-width : 768px) {
     font-size: 44px;
+    padding: 50px;
   }
 }
