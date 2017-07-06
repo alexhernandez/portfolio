@@ -1,0 +1,5 @@
+# SASS/SCSS LINTER CONFIG
+#
+
+scss_files: 'src/scss'
+exclude: 'src/scss/_normalize.scss'

@@ -1,0 +1,44 @@
+// BASE
+//
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $black;
+  color: $black;
+  font-family: $font-brand;
+  font-size: $font-size-root;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: $red;
+  color: $white;
+}
+
+.wrapper {
+  background-color: $white;
+  border: 20px solid $black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 50px;
+  text-align: center;
+
+  @media only screen and (min-width : 768px) {
+    font-size: 44px;
+  }
+}
