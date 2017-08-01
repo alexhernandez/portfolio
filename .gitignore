@@ -1,6 +1,7 @@
 # Package Folders
 bower_components
 node_modules
+public
 
 # OS or Editor Folders
 .DS_Store
