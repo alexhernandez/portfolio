@@ -31,10 +31,13 @@
 
 .continue {
   position: absolute;
-  color: $red;
   left: 0;
   right: 0;
   bottom: 100px;
   text-align: center;
   font-size: 32px;
+}
+
+.continue a {
+  color: $red;
 }
