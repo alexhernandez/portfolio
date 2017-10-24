@@ -10,3 +10,11 @@
     font-size: $font-size-lg;
   }
 }
+
+.location {
+  text-decoration: none;
+  color: $red;
+  font-weight: bold;
+  font-size: $font-size-sm;
+  display: block;
+}
