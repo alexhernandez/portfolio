@@ -412,6 +412,7 @@ body {
 .section {
   position: relative;
   height: 100vh;
+  max-height: 1000px;
   width: 100vw; }
 
 .content {
@@ -484,9 +485,7 @@ body {
   right: 0;
   bottom: 100px;
   text-align: center;
-  font-size: 32px; }
-
-.continue a {
+  font-size: 32px;
   color: #f85a43; }
 
 .row {
@@ -496,8 +495,19 @@ body {
   align-items: center;
   justify-content: space-between; }
 
-.column {
+.whole {
+  width: 100%; }
+
+.half {
   width: 50%; }
+
+.quarter {
+  width: 25%; }
+
+.emphasis {
+  border-bottom: 2px dashed #f85a43;
+  padding: 2px 10px;
+  background-color: #f6f6f6; }
 
 .social-icons {
   font-size: 28px; }
