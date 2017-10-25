@@ -6,3 +6,9 @@
 .bg--red { background-color: $red; }
 .bg--black { background-color: $black; }
 .bg--white { background-color: $white; }
+
+.type--red { color: $red; }
+.type--black { color: $black; }
+.type--white { color: $white; }
+
+.clearfix { @include clearfix; }

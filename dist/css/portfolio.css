@@ -437,6 +437,10 @@ body {
   font-weight: bold;
   font-size: 13px; }
 
+.copy {
+  color: #3c3c3c;
+  line-height: 26px; }
+
 .list-inline {
   list-style: none;
   margin: 0;
@@ -485,6 +489,16 @@ body {
 .continue a {
   color: #f85a43; }
 
+.row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.column {
+  width: 50%; }
+
 .social-icons {
   font-size: 28px; }
 
@@ -496,5 +510,19 @@ body {
 
 .bg--white {
   background-color: #fff; }
+
+.type--red {
+  color: #f85a43; }
+
+.type--black {
+  color: #222; }
+
+.type--white {
+  color: #fff; }
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
 
 /*# sourceMappingURL=portfolio.css.map */

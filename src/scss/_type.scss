@@ -17,3 +17,8 @@
   font-weight: bold;
   font-size: $font-size-sm;
 }
+
+.copy {
+  color: lighten($black, 10%);
+  line-height: 26px;
+}

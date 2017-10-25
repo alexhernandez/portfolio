@@ -3,10 +3,12 @@
 
 @import 'variables';
 @import 'normalize';
+@import 'mixins';
 
 @import 'base';
 
 @import 'type';
 @import 'lists';
 @import 'nav';
+@import 'grid';
 @import 'utils';
