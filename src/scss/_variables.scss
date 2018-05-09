@@ -2,12 +2,30 @@
 //
 
 // TYPOGRAPHY
-$font-brand: "ff-dagny-web-pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-size-lg: 50px;
-$font-size-root: 18px;
-$font-size-sm: 13px;
+$font-brand: "din-2014", Arial, sans-serif;
+$font-default: "Source Sans Pro", Arial, sans-serif;
 
 // COLOR PALETTE
-$black: #222;
-$red: #f85a43;
-$white: #fff;
+$navy: #0E2B3C;
+$gray-dark: #7D8E98;
+$red: #FA5457;
+$blue: #08D1EF;
+$gray: #F3F2F5;
+$white: #FFF;
+
+// // GRID SYSTEM
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 480px,
+//   md: 768px,
+//   lg: 1024px
+// );
+
+// $container-max-widths: (
+//   sm: 420px,
+//   md: 720px,
+//   lg: 960px,
+// );
+
+// $grid-columns: 12;
+// $grid-gutter-width: 30px;

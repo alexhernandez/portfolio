@@ -1,14 +1,62 @@
 // ALEX HERNANDEZ
-// PORTFOLIO 2017
+// PORTFOLIO 2018
 
-@import 'variables';
-@import 'normalize';
-@import 'mixins';
+@import "normalize";
+@import "variables";
 
-@import 'base';
+// Override Box Model
+html { 
+    // font-size: 17px;
+    box-sizing: border-box;
+}
+*, *:before, *:after { box-sizing: inherit; }
 
-@import 'type';
-@import 'lists';
-@import 'nav';
-@import 'grid';
-@import 'utils';
+// Type Reset
+h1, h2, h3, h4, h5, h6, p, ul, ol, small { margin-top: 0; }
+
+body {
+    background: #fff;
+    color: $navy;
+    font-family: $font-default;
+    font-size: 1rem; // 16px
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: $font-brand;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+}
+
+h1 { font-size: 5rem; } // Display
+h2 { font-size: 2.75rem; }
+h3 { font-size: 1.25rem; }
+
+p, ul, ol { 
+    font-size: 1rem; 
+    margin-bottom: 1rem; 
+}
+
+.emphasis { 
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem; 
+}
+
+// LISTS
+.list--unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.bg--red { background: $red; }
+.bg--navy { background: $navy; }
+.bg--navy-split { background-image: linear-gradient( to left, $navy 66.666667%, $white 33.333333%); }
+.bg--navy-split-invert { background-image: linear-gradient( to left, $navy 66.666667%, $white 33.333333%); }
+.bg--gray-dark { background: $gray-dark; }
+
+.type--white { color: $white; }
+.type--red { color: $red; }
