@@ -12,7 +12,7 @@ html {
 *, *:before, *:after { box-sizing: inherit; }
 
 // Type Reset
-h1, h2, h3, h4, h5, h6, p, ul, ol, small { margin-top: 0; }
+h1, h2, h3, h4, h5, h6, p, ul, ol, small, a { margin-top: 0; }
 
 body {
     background: #fff;
@@ -36,14 +36,28 @@ h1 { font-size: 5rem; } // Display
 h2 { font-size: 2.75rem; }
 h3 { font-size: 1.25rem; }
 
-p, ul, ol { 
+p, ul, ol, a { 
     font-size: 1rem; 
     margin-bottom: 1rem; 
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+small { font-size: 85%; }
+
 .emphasis { 
     font-size: 1.25rem;
     margin-bottom: 1.5rem; 
+}
+
+.intro { 
+    font-size: 1.35rem;
+    margin-bottom: 1.5rem;
+    padding-left: 20px;
+    border-left: solid 1px #FA5457;
 }
 
 // LISTS
@@ -52,6 +66,7 @@ p, ul, ol {
     padding: 0;
 }
 
+// UTILS
 .bg--red { background: $red; }
 .bg--navy { background: $navy; }
 .bg--navy-split { background-image: linear-gradient( to left, $navy 66.666667%, $white 33.333333%); }
@@ -60,3 +75,22 @@ p, ul, ol {
 
 .type--white { color: $white; }
 .type--red { color: $red; }
+.type--gray-dark { color: $gray-dark; }
+.type--center { text-align: center; }
+.type--right { text-align: right; }
+
+.img--fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.scroll--horizontal { 
+    overflow-x: scroll;
+    overflow-y: hidden;
+    // -webkit-overflow-scrolling: touch;
+    
+    // &::-webkit-scrollbar {
+    //     display: none;
+    // }
+}
+.nowrap { flex-wrap: nowrap; }

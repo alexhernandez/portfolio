@@ -303,7 +303,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, small {
+h1, h2, h3, h4, h5, h6, p, ul, ol, small, a {
   margin-top: 0; }
 
 body {
@@ -331,13 +331,26 @@ h2 {
 h3 {
   font-size: 1.25rem; }
 
-p, ul, ol {
+p, ul, ol, a {
   font-size: 1rem;
   margin-bottom: 1rem; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+small {
+  font-size: 85%; }
 
 .emphasis {
   font-size: 1.25rem;
   margin-bottom: 1.5rem; }
+
+.intro {
+  font-size: 1.35rem;
+  margin-bottom: 1.5rem;
+  padding-left: 20px;
+  border-left: solid 1px #FA5457; }
 
 .list--unstyled {
   list-style: none;
@@ -363,5 +376,25 @@ p, ul, ol {
 
 .type--red {
   color: #FA5457; }
+
+.type--gray-dark {
+  color: #7D8E98; }
+
+.type--center {
+  text-align: center; }
+
+.type--right {
+  text-align: right; }
+
+.img--fluid {
+  max-width: 100%;
+  height: auto; }
+
+.scroll--horizontal {
+  overflow-x: scroll;
+  overflow-y: hidden; }
+
+.nowrap {
+  flex-wrap: nowrap; }
 
 /*# sourceMappingURL=portfolio.css.map */
