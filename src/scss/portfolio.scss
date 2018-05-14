@@ -32,15 +32,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem;
 }
 
-h1 { 
+h1, .h1 { 
     font-size: 3.75rem;
 
     @media (min-width: 992px) {
         font-size: 5rem;
     }
 }
-h2 { font-size: 2.75rem; }
-h3 { font-size: 1.25rem; }
+h2, .h2 { font-size: 3rem; }
+h3, .h3 { font-size: 2.5rem; }
+h4, .h4 { font-size: 1.25rem; }
 
 p, ul, ol, a { 
     font-size: 1rem; 
@@ -54,6 +55,14 @@ a {
     &:hover {
         color: inherit;
     }
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    border: 0;
+    border-top: 1px dashed rgba(0, 0, 0, 0.1);
 }
 
 small { font-size: 85%; }
@@ -108,10 +117,14 @@ small { font-size: 85%; }
 .bg--navy-split { background-image: linear-gradient( to left, $navy 66.666667%, $white 33.333333%); }
 .bg--navy-split-invert { background-image: linear-gradient( to left, $navy 66.666667%, $white 33.333333%); }
 .bg--gray-dark { background: $gray-dark; }
+.bg--gray { background: $gray; }
 
 .type--white { color: $white; }
 .type--red { color: $red; }
+.type--navy { color: $navy; }
 .type--gray-dark { color: $gray-dark; }
+
+.type--underlined { border-bottom: 1px solid $gray; }
 .type--center { text-align: center; }
 .type--right { 
     @media (min-width: 992px) {
