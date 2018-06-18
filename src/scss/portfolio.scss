@@ -19,7 +19,7 @@ body {
     color: $navy;
     font-family: $font-default;
     font-size: 1rem; // 16px
-    line-height: 1.5;
+    line-height: 1.4;
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -51,7 +51,7 @@ p, ul, ol, a {
 a {
     text-decoration: none;
     color: inherit;
-    
+    font-size: inherit;
     &:hover {
         color: inherit;
     }
@@ -81,6 +81,24 @@ small { font-size: 85%; }
 .list--unstyled {
     list-style: none;
     padding: 0;
+}
+
+.list--inline > li {
+    display: inline-block;
+}
+
+.list--inline a {
+    border: 1px solid transparent;
+    border-radius: 40px;
+    padding: 0px 20px;
+    transition: all .3s ease;
+}
+
+
+.list--inline .active {
+    border: 1px solid $red;
+    background-color: $red;
+    color: $white;
 }
 
 // NAV
@@ -139,6 +157,12 @@ small { font-size: 85%; }
 .type--right { 
     @media (min-width: 992px) {
         text-align: right; 
+    }
+}
+
+.type--no-decoration { 
+    &:hover {
+        text-decoration: none; 
     }
 }
 
