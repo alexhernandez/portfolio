@@ -7,8 +7,8 @@
     <title>Alex Hernandez | Product Designer &amp; Front End Developer</title>
     <meta name="description" content="Los Angeles based Product Designer &amp Front End Developer. I help people design products that transform and elevate their everyday life.">
 
-    <link rel="shortcut icon" type="image/png" href="public/imgs/favicon.png" />
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="shortcut icon" type="image/png" href="dist/imgs/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css">
     
     <link rel="stylesheet" href="https://use.typekit.net/nmj3qua.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
@@ -18,33 +18,14 @@
 </head>
 
 <body>
-
-    <!-- <nav>
-        <div class="container">
-            <div class="navigation" style="border-bottom: 1px solid #ccc;">
-                <div class="row align-items-center">
-                    <div class="col-sm-6">
-                        <div class="brand"><a href="index.html">Alex Hernandez</a></div> 
-                    </div>
-                    <div class="col-sm-6">
-                        <ul class="list--unstyled nav__list type--red">
-                            <li><a href="index.html">Work</a></li>
-                            <li><a href="https://medium.com/@oorangecchicken" target="_blank">Articles</a></li>
-                            <li><a href="#">Inspiration</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav> -->
     
-    <section style="padding-top: 150px; padding-bottom: 100px;">
+    <section style="padding-top: 25vh; padding-bottom: 25vh;">
         <div class="container type--center">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <h1>Alex Hernandez</h1>
-                    <p class="intro" style="border-color: #fff;">Product Designer based in Los Angeles, CA</p>
-                    <ul class="list--unstyled list--inline type--red">
+                    <h1 class="type--display">Alex Hernandez</h1>
+                    <p class="intro type--gray-dark">Product Designer &amp Front End Developer based in Los Angeles, CA</p>
+                    <ul class="list--unstyled list--inline pills type--red">
                         <li><a class="active" href="index.html">Work</a></li>
                         <li><a href="articles.html">Articles</a></li>
                         <li><a target="_blank" href="http://oorangecchicken.tumblr.com">Inspiration</a></li>
@@ -68,12 +49,26 @@
                                     </div>
                                     <div class="col-sm-12 col-md-3">
                                         <p class="type--right type--red"><a href="metaphor.html">View Project &rarr;</a></p>
-                                        <!-- <p class="type--right type--gray-dark"><em>Coming Soon</em></p> -->
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                            <div class="col-sm-12">
+                                <div style="border-top: 1px solid #ccc; padding: 20px;">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-9">
+                                            <h2>IMS</h2>
+                                            <p class="type--gray-dark emphasis">Real-time tow truck &amp; vehicle dispatching system.</p>
+                                        </div>
+                                        <div class="col-sm-12 col-md-3">
+                                            <p class="type--right type--gray-dark"><em>Coming Soon</em></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     <div class="row">
                         <div class="col-sm-12">
                             <div style="border-top: 1px solid #ccc; padding: 20px;">
@@ -81,21 +76,6 @@
                                     <div class="col-sm-12 col-md-9">
                                         <h2>Moodzer</h2>
                                         <p class="type--gray-dark emphasis">The ultimate moodboard canvas for aspiring designers.</p>
-                                    </div>
-                                    <div class="col-sm-12 col-md-3">
-                                        <p class="type--right type--gray-dark"><em>Coming Soon</em></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div style="border-top: 1px solid #ccc; padding: 20px;">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-9">
-                                        <h2>OPG</h2>
-                                        <p class="type--gray-dark emphasis">Real-time tow truck &amp; vehicle dispatching system.</p>
                                     </div>
                                     <div class="col-sm-12 col-md-3">
                                         <p class="type--right type--gray-dark"><em>Coming Soon</em></p>
@@ -128,19 +108,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <h1 class="type--white">That’s All Folks. Let’s Chat!</h1>
+                    <h1 class="type--white"><div>That’s All Folks.</div><div>Let’s Chat!</div></h1>
                     <p class="type--white intro" style="border-color: #fff;">Hi! I'm Alex Hernandez, a designer based in Los Angeles, CA. I enjoy collaborating with brands of any size that have passion and purpose.</p>
                     <p class="type--navy emphasis">Product Designer &centerdot; Front End Developer &centerdot; Entrepreneur</p>
                 </div>
                 <div class="col-lg-3 offset-lg-1 type--right">
-                    <h3 class="type--navy">Social</h3>
-                    <ul class="list--unstyled type--white">
-                        <li><a href="https://github.com/alexhernandez">github.com/alexhernandez</a></li>
-                        <li><a href="https://dribbble.com/alexhernandez">dribbble.com/alexhernandez</a></li>
-                        <li><a href="https://linkedin.com/in/alex-hdz">linkedin.com/alex-hdz</a></li>
+                    <h4 class="type--navy">Social</h4>
+                    <ul class="list--unstyled list--inline social type--white">
+                        <li><a class="icon ion-logo-github" href="https://github.com/alexhernandez" target="_blank"></a></li>
+                        <li><a class="icon ion-logo-dribbble" href="https://dribbble.com/alexhernandez" target="_blank"></a></li>
+                        <li><a class="icon ion-logo-linkedin" href="https://linkedin.com/in/alex-hdz" target="_blank"></a></li>
                     </ul>
+                    
+                    <br>
 
-                    <h3 class="type--navy">Contact</h3>
+                    <h4 class="type--navy">Contact</h4>
                     <ul class="list--unstyled type--white">
                         <li><a href="mailto:hi@alejandrohernandez.me">hi@alejandrohernandez.me</a></li>
                     </ul>

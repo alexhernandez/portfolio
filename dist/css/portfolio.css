@@ -298,6 +298,7 @@ template {
   display: none; }
 
 html {
+  font-size: 16px;
   box-sizing: border-box; }
 
 *, *:before, *:after {
@@ -319,14 +320,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "din-2014", Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 900;
-  line-height: 1.2;
-  margin-bottom: .5rem; }
+  line-height: 1.125;
+  margin-bottom: .75rem; }
 
 h1, .h1 {
-  font-size: 3.75rem; }
-  @media (min-width: 992px) {
-    h1, .h1 {
-      font-size: 5rem; } }
+  font-size: 4rem; }
 
 h2, .h2 {
   font-size: 3rem; }
@@ -335,7 +333,14 @@ h3, .h3 {
   font-size: 2.5rem; }
 
 h4, .h4 {
+  font-size: 2rem; }
+
+h5, .h5 {
   font-size: 1.25rem; }
+
+@media (min-width: 992px) {
+  .type--display {
+    font-size: 5.5rem; } }
 
 p, ul, ol, a {
   font-size: 1rem;
@@ -373,13 +378,17 @@ small {
 .list--inline > li {
   display: inline-block; }
 
-.list--inline a {
+.pills a {
   border: 1px solid transparent;
   border-radius: 40px;
-  padding: 0px 20px;
+  padding: 5px 20px;
   transition: all .3s ease; }
 
-.list--inline .active {
+.social a {
+  margin: 0 5px;
+  font-size: 1.5rem; }
+
+.pills .active {
   border: 1px solid #FA5457;
   background-color: #FA5457;
   color: #FFF; }
@@ -427,7 +436,7 @@ small {
   background-image: linear-gradient(to left, #0E2B3C 66.666667%, #FFF 33.333333%); }
 
 .bg--gray-dark {
-  background: #72848f; }
+  background: #6f828c; }
 
 .bg--gray {
   background: #F9F9F9; }
@@ -442,7 +451,7 @@ small {
   color: #0E2B3C; }
 
 .type--gray-dark {
-  color: #72848f; }
+  color: #6f828c; }
 
 .type--underlined {
   border-bottom: 1px solid #F9F9F9; }
