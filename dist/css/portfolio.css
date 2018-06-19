@@ -463,6 +463,14 @@ small {
   .type--right {
     text-align: right; } }
 
+.type--header {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  @media (min-width: 992px) {
+    .type--header {
+      padding-top: 25vh;
+      padding-bottom: 25vh; } }
+
 .type--no-decoration:hover {
   text-decoration: none; }
 
