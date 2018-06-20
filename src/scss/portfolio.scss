@@ -91,7 +91,7 @@ small { font-size: 85%; }
 .pills a {
     border: 1px solid transparent;
     border-radius: 40px;
-    padding: 5px 20px;
+    padding: 5px 15px;
     transition: all .3s ease;
 }
 
@@ -147,6 +147,7 @@ small { font-size: 85%; }
 
 // UTILS
 .bg--red { background: $red; }
+.bg--yellow { background: $yellow; }
 .bg--navy { background: $navy; }
 .bg--navy-split { background-image: linear-gradient( to left, $navy 66.666667%, $white 33.333333%); }
 .bg--navy-split-invert { background-image: linear-gradient( to left, $navy 66.666667%, $white 33.333333%); }
@@ -155,6 +156,7 @@ small { font-size: 85%; }
 
 .type--white { color: $white; }
 .type--red { color: $red; }
+.type--yellow { color: $yellow; }
 .type--navy { color: $navy; }
 .type--gray-dark { color: $gray-dark; }
 
@@ -196,4 +198,50 @@ small { font-size: 85%; }
     //     display: none;
     // }
 }
+
+.relative { position: relative; }
+
+blockquote {
+    position: relative;
+    margin-bottom: 100px;
+
+    &::before {
+        content: '“';
+        position: relative;
+        margin-bottom: 15px;
+        display: block;
+        color: $gray-dark;
+        font-size: 5rem;
+        font-weight: bold;
+        line-height: 0;
+    }
+
+    footer {
+        font-size: 1rem; 
+        margin-bottom: 1rem;   
+    }
+}
+
 .nowrap { flex-wrap: nowrap; }
+
+.thumbs {
+    margin-bottom: 1%;
+    width: 100%; 
+
+    @media (min-width: 576px) {
+        width: 49%; 
+    }
+    
+    // @media (min-width: 768px) {
+    //     width: 49%; 
+    // }
+    
+    @media (min-width: 992px) {
+        width: 32%; 
+    }
+    
+    @media (min-width: 1200px) {
+        width: 19%; 
+    }
+
+}

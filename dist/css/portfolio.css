@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -381,7 +382,7 @@ small {
 .pills a {
   border: 1px solid transparent;
   border-radius: 40px;
-  padding: 5px 20px;
+  padding: 5px 15px;
   transition: all .3s ease; }
 
 .social a {
@@ -426,6 +427,9 @@ small {
 .bg--red {
   background: #FA5457; }
 
+.bg--yellow {
+  background: #FAE064; }
+
 .bg--navy {
   background: #0E2B3C; }
 
@@ -446,6 +450,9 @@ small {
 
 .type--red {
   color: #FA5457; }
+
+.type--yellow {
+  color: #FAE064; }
 
 .type--navy {
   color: #0E2B3C; }
@@ -483,7 +490,39 @@ small {
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch; }
 
+.relative {
+  position: relative; }
+
+blockquote {
+  position: relative;
+  margin-bottom: 100px; }
+  blockquote::before {
+    content: '“';
+    position: relative;
+    margin-bottom: 15px;
+    display: block;
+    color: #6f828c;
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 0; }
+  blockquote footer {
+    font-size: 1rem;
+    margin-bottom: 1rem; }
+
 .nowrap {
   flex-wrap: nowrap; }
+
+.thumbs {
+  margin-bottom: 1%;
+  width: 100%; }
+  @media (min-width: 576px) {
+    .thumbs {
+      width: 49%; } }
+  @media (min-width: 992px) {
+    .thumbs {
+      width: 32%; } }
+  @media (min-width: 1200px) {
+    .thumbs {
+      width: 19%; } }
 
 /*# sourceMappingURL=portfolio.css.map */
