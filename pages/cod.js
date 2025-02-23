@@ -80,9 +80,7 @@ export default function Metaphor() {
                 Play smarter, win more, and stay connected to the world of Call
                 of Duty, wherever you go.
               </p>
-              <p className="type--red emphasis">
-                UI Engineer &middot; Mobile Developer
-              </p>
+              <p className="type--red emphasis">Manager &middot; Mobile Engineer</p>
             </div>
             <div className="col-lg-3 offset-lg-1 type--right">
               <h5 className="type--red">Client</h5>

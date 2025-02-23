@@ -77,9 +77,7 @@ export default function Metaphor() {
                 EA SPORTS App
               </h1>
               <p className="type--white intro">Made for a new generation of sport fans.</p>
-              <p className="type--red emphasis">
-                UI Engineer &middot; Mobile Developer
-              </p>
+              <p className="type--red emphasis">Manager &middot; Mobile Engineer</p>
             </div>
             <div className="col-lg-3 offset-lg-1 type--right">
               <h5 className="type--red">Client</h5>
