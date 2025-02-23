@@ -74,12 +74,9 @@ export default function Metaphor() {
           <div className="row">
             <div className="col-lg-8">
               <h1 className="type--white type--display">
-                Call of Duty: Companion App
+                EA SPORTS App
               </h1>
-              <p className="type--white intro">
-                Play smarter, win more, and stay connected to the world of Call
-                of Duty, wherever you go.
-              </p>
+              <p className="type--white intro">Made for a new generation of sport fans.</p>
               <p className="type--red emphasis">
                 UI Engineer &middot; Mobile Developer
               </p>
@@ -87,16 +84,17 @@ export default function Metaphor() {
             <div className="col-lg-3 offset-lg-1 type--right">
               <h5 className="type--red">Client</h5>
               <ul className="list--unstyled type--white">
-                <li>Activision</li>
+                <li>Electronic Arts (EA)</li>
               </ul>
               <h5 className="type--red">Tech Stack</h5>
               <ul className="list--unstyled type--white">
                 <li>TypeScript</li>
-                <li>React &amp; React Native</li>
+                <li>React/React Native</li>
+                <li>Swift &amp; Kotlin</li>
               </ul>
               <h5 className="type--red">Platforms</h5>
               <ul className="list--unstyled type--white">
-                <li>Web, Android &amp; iOS</li>
+                <li>Android &amp; iOS</li>
               </ul>
             </div>
           </div>
@@ -127,11 +125,11 @@ export default function Metaphor() {
         </div>
       </section> */}
 
-      <section className="bg--black" style={{ paddingBottom: "50px" }}>
+      <section style={{ paddingTop: "25px", paddingBottom: "25px", background: "linear-gradient(180deg, rgba(3,93,254,1) 0%, rgba(3,93,254,1) 75%, rgba(0,83,250,1) 100%)" }}>
         <div className="container-fluid type--center">
           <div className="row">
-            <div className="col-sm-12">
-              <img className="img--fluid" src="/imgs/CallOfDuty.png" alt="" />
+            <div className="col-md-8 offset-md-2">
+              <img className="img--fluid" src="/imgs/ea-app.png" alt="" />
             </div>
           </div>
         </div>

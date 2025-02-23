@@ -91,6 +91,16 @@ export default function Metaphor() {
                 <li>Academic Affairs</li>
                 <li>CSU Northridge</li>
               </ul>
+              <h5 className="type--red">Tech Stack</h5>
+              <ul className="list--unstyled type--white">
+                <li>JavaScript</li>
+                <li>Vue/React/React Native</li>
+                <li>PHP, HTML &amp; CSS</li>
+              </ul>
+              <h5 className="type--red">Platforms</h5>
+              <ul className="list--unstyled type--white">
+                <li>Web, Android &amp; iOS</li>
+              </ul>
             </div>
           </div>
         </div>

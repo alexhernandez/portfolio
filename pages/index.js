@@ -87,8 +87,10 @@ export default function Home() {
                           </p>
                         </div>
                         <div className="col-sm-12 col-md-3">
-                          <p className="type--right type--gray-dark">
-                            <em>Coming Soon</em>
+                          <p className="type--right type--red">
+                            <Link href="/ea">
+                              <a>View Project &rarr;</a>
+                            </Link>
                           </p>
                         </div>
                       </div>
