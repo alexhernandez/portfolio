@@ -89,8 +89,9 @@ export default function Metaphor() {
               </ul>
               <h5 className="type--red">Tech Stack</h5>
               <ul className="list--unstyled type--white">
-                <li>TypeScript</li>
-                <li>React &amp; React Native</li>
+                <li>JavaScript</li>
+                <li>Vue/React/React Native</li>
+                <li>HTML &amp; CSS</li>
               </ul>
               <h5 className="type--red">Platforms</h5>
               <ul className="list--unstyled type--white">
