@@ -6,14 +6,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prettier": "npx prettier . --write"
   },
   "dependencies": {
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
-  "engines" : { 
-    "node" : ">=18"
+  "devDependencies": {
+    "prettier": "3.5.2"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Inspiration() {
+export default function Metaphor() {
   return (
     <div>
       <Head>
@@ -31,92 +31,105 @@ export default function Inspiration() {
         <link rel="stylesheet" href="/static/css/portfolio.css" />
       </Head>
 
-      <section className="type--header bg--white">
-        <div className="container type--center">
-          <div className="row">
-            <div className="col-md-8 offset-md-2">
-              <h1 className="type--display type--black">Alex Hernandez</h1>
-              <p className="intro type--gray-dark">
-                Product Designer &amp; Software Engineer based in Los Angeles,
-                CA
-              </p>
-              <ul className="list--unstyled list--inline pills type--red">
-                <li>
+      <nav className="bg--black">
+        <div className="container">
+          <div className="navigation">
+            <div className="row align-items-center">
+              <div className="col-sm-6">
+                <div className="brand type--white">
                   <Link href="/">
-                    <a>Portfolio</a>
+                    <a>Alex Hernandez</a>
                   </Link>
-                </li>
-                <li>
-                  <Link href="/articles">
-                    <a>Articles</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/inspiration">
-                    <a className="active">Inspiration</a>
-                  </Link>
-                </li>
+                </div>
+              </div>
+              <div className="col-sm-6">
+                <ul className="list--unstyled nav__list type--white">
+                  <li>
+                    <Link href="/">
+                      <a>Portfolio</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/articles">
+                      <a>Articles</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/inspiration">
+                      <a>Inspiration</a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section
+        className="bg--black"
+        style={{ paddingTop: "150px", paddingBottom: "100px" }}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8">
+              <h1 className="type--white type--display">
+                Call of Duty: Companion App
+              </h1>
+              <p className="type--white intro">
+                Play smarter, win more, and stay connected to the world of Call
+                of Duty, wherever you go.
+              </p>
+              <p className="type--red emphasis">
+                UI Engineer &middot; Mobile Developer
+              </p>
+            </div>
+            <div className="col-lg-3 offset-lg-1 type--right">
+              <h5 className="type--red">Clients</h5>
+              <ul className="list--unstyled type--white">
+                <li>Activision</li>
               </ul>
             </div>
           </div>
         </div>
       </section>
 
-      <section
-        className="bg--white border-radius"
-        style={{ paddingBottom: "100px" }}
+      {/* <section
+        className="bg--white"
+        style={{ paddingTop: "100px", paddingBottom: "50px" }}
       >
         <div className="container">
-          <div className="row type--center justify-content-center">
+          <div className="row">
+            <div className="col-lg-3">
+              <h2>Challenge</h2>
+            </div>
+            <div className="col-lg-7 offset-lg-1">
+              <p className="emphasis type--gray-dark">
+                CSUN has a suite of products all designed and developed by
+                different organizations across the university. A major problem
+                facing all products was the continued re-development of
+                interface elements and a lack of branding consistency. Our
+                challenge was to create a design language that could streamline
+                the experience for users as well as unify product teams across
+                multiple product lines.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+      <section className="bg--black" style={{ paddingBottom: "50px" }}>
+        <div className="container-fluid type--center">
+          <div className="row">
             <div className="col-sm-12">
-              <h2 className="type--black">Words of Wisdom</h2>
-              <br />
-              <br />
-              <br />
-            </div>
-            <div className="col-sm-4">
-              <blockquote>
-                <p className="type--gray-dark intro">
-                  To live is to risk it all. Otherwise you're just an inert
-                  chunk of randomly assembled molecules drifting wherever the
-                  universe blows you.
-                </p>
-                <footer>Rick Sanchez, Rick &amp; Morty</footer>
-              </blockquote>
-            </div>
-            <div className="col-sm-4">
-              <blockquote>
-                <p className="type--gray-dark intro">
-                  It ain’t about how hard you hit. It’s about how hard you can
-                  get hit and keep moving forward. How much you can take and
-                  keep moving forward. That’s how winning is done!
-                </p>
-                <footer>Rocky Balboa</footer>
-              </blockquote>
-            </div>
-            <div className="col-sm-4">
-              <blockquote>
-                <p className="type--gray-dark intro">
-                  The danger is not to set your goal too high and fail to reach
-                  it. It’s to set your goal too low and reach it.
-                </p>
-                <footer>Georges St-Pierre, UFC Welterweight Champion</footer>
-              </blockquote>
-            </div>
-            <div className="col-sm-12">
-              <blockquote>
-                <p className="type--gray-dark intro">
-                  Empty your mind, be formless, shapeless — like water.
-                </p>
-                <footer>Bruce Lee, A Warrior's Journey</footer>
-              </blockquote>
+              <img className="img--fluid" src="/imgs/CallOfDuty.png" alt="" />
             </div>
           </div>
         </div>
       </section>
 
       <section
-        className="bg--red"
+        className="bg--black"
         style={{ paddingTop: "150px", paddingBottom: "100px" }}
       >
         <div className="container">
@@ -131,12 +144,12 @@ export default function Inspiration() {
                 in Los Angeles, CA. I enjoy collaborating with brands of any
                 size that have passion and purpose.
               </p>
-              <p className="type--navy emphasis">
+              <p className="type--red emphasis">
                 Product Designer &middot; Software Engineer
               </p>
             </div>
             <div className="col-lg-3 offset-lg-1 type--right">
-              <h4 className="type--navy">Social</h4>
+              <h4 className="type--red">Social</h4>
               <ul className="list--unstyled list--inline social type--white">
                 <li>
                   <a
@@ -163,7 +176,7 @@ export default function Inspiration() {
 
               <br />
 
-              <h4 className="type--navy">Contact</h4>
+              <h4 className="type--red">Contact</h4>
               <ul className="list--unstyled type--white">
                 <li>
                   <a href="mailto:hi@alejandrohernandez.me">

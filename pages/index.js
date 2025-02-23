@@ -1,92 +1,275 @@
-import Head from 'next/head';
-import Link from 'next/link';
+import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <title>Alex Hernandez | Product Designer &amp; Front End Developer</title>
-        <meta name="description" content="Los Angeles based Product Designer &amp Front End Developer. I help people design products that transform and elevate their everyday life."/>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <title>Alex Hernandez | Product Designer &amp; Software Engineer</title>
+        <meta
+          name="description"
+          content="Los Angeles based Product Designer & Software Engineer. I help people design products that transform and elevate their everyday life."
+        />
 
-        <link rel="shortcut icon" type="image/png" href="/imgs/favicon.png"/>
-        <link rel="stylesheet" href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css"/>
+        <link rel="shortcut icon" type="image/png" href="/imgs/favicon.png" />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css"
+        />
 
-        <link rel="stylesheet" href="https://use.typekit.net/nmj3qua.css"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"/>
-        <link rel="stylesheet" href="/static/css/bootstrap-reboot.min.css"/>
-        <link rel="stylesheet" href="/static/css/bootstrap-grid.min.css"/>
-        <link rel="stylesheet" href="/static/css/portfolio.css"/>
+        <link rel="stylesheet" href="https://use.typekit.net/nmj3qua.css" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+        />
+        <link rel="stylesheet" href="/static/css/bootstrap-reboot.min.css" />
+        <link rel="stylesheet" href="/static/css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" href="/static/css/portfolio.css" />
       </Head>
 
-      <section className="type--header">
+      <section className="type--header bg--black">
         <div className="container type--center">
+          <div className="row">
+            <div className="col-md-8 offset-md-2">
+              <h1 className="type--display type--white">Alex Hernandez</h1>
+              <p className="intro type--gray-dark">
+                Product Designer &amp; Software Engineer based in Los Angeles,
+                CA
+              </p>
+              <ul className="list--unstyled list--inline pills type--white">
+                <li>
+                  <Link href="/">
+                    <a className="active">Portfolio</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/articles">
+                    <a>Articles</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/inspiration">
+                    <a>Inspiration</a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg--white">
+        <section
+          className="bg--black border-radius"
+          style={{ paddingBottom: "100px" }}
+        >
+          <div className="container">
             <div className="row">
-                <div className="col-md-8 offset-md-2">
-                    <h1 className="type--display">Alex Hernandez</h1>
-                    <p className="intro type--gray-dark">Product Designer &amp; Front End Developer based in Los Angeles, CA</p>
-                    <ul className="list--unstyled list--inline pills type--red">
-                        <li><Link href="/"><a className="active">Snapshots</a></Link></li>
-                        <li><Link href="/portfolio"><a>Portfolio</a></Link></li>
-                        <li><Link href="/articles"><a>Articles</a></Link></li>
-                        <li><Link href="/inspiration"><a>Inspiration</a></Link></li>
-                    </ul>
+              <div className="col-lg-8 offset-lg-2">
+                <div className="row">
+                  <div className="col-sm-12">
+                    <div style={{ padding: "20px" }}>
+                      <div className="row">
+                        <div className="col-sm-12 col-md-9">
+                          <h2>
+                            <Link href="/ea">
+                              <a className="type--no-decoration type--white">
+                                EA SPORTS App
+                              </a>
+                            </Link>
+                          </h2>
+                          <p className="type--gray-dark emphasis">
+                            Made for a new generation of sport fans.
+                          </p>
+                        </div>
+                        <div className="col-sm-12 col-md-3">
+                          <p className="type--right type--gray-dark">
+                            <em>Coming Soon</em>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <div className="row">
+                  <div className="col-sm-12">
+                    <div
+                      style={{ borderTop: "1px solid #ccc", padding: "20px" }}
+                    >
+                      <div className="row">
+                        <div className="col-sm-12 col-md-9">
+                          <h2>
+                            <Link href="/cod">
+                              <a className="type--no-decoration type--white">
+                                Call of Duty: Companion App
+                              </a>
+                            </Link>
+                          </h2>
+                          <p className="type--gray-dark emphasis">
+                            Play smarter, win more, and stay connected to the
+                            world of Call of Duty, wherever you go.
+                          </p>
+                        </div>
+                        <div className="col-sm-12 col-md-3">
+                          <p className="type--right type--red">
+                            <Link href="/cod">
+                              <a>View Project &rarr;</a>
+                            </Link>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-sm-12">
+                    <div
+                      style={{ borderTop: "1px solid #ccc", padding: "20px" }}
+                    >
+                      <div className="row">
+                        <div className="col-sm-12 col-md-9">
+                          <h2>
+                            <Link href="/metaphor">
+                              <a className="type--no-decoration type--white">
+                                Metaphor
+                              </a>
+                            </Link>
+                          </h2>
+                          <p className="type--gray-dark emphasis">
+                            A beautiful &amp; versatile design system built for
+                            CSU Northridge's web &amp; mobile application
+                            developers.
+                          </p>
+                        </div>
+                        <div className="col-sm-12 col-md-3">
+                          <p className="type--right type--red">
+                            <Link href="/metaphor">
+                              <a>View Project &rarr;</a>
+                            </Link>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-sm-12">
+                    <div
+                      style={{ borderTop: "1px solid #ccc", padding: "20px" }}
+                    >
+                      <div className="row">
+                        <div className="col-sm-12 col-md-9">
+                          <h2 className="type--no-decoration type--white">
+                            Cronos
+                          </h2>
+                          <p className="type--gray-dark emphasis">
+                            Real-time vehicle dispatching &amp; retrieval
+                            system.
+                          </p>
+                        </div>
+                        <div className="col-sm-12 col-md-3">
+                          <p className="type--right type--gray-dark">
+                            <em>Coming Soon</em>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-sm-12">
+                    <div
+                      style={{ borderTop: "1px solid #ccc", padding: "20px" }}
+                    >
+                      <div className="row">
+                        <div className="col-sm-12 col-md-9">
+                          <h2 className="type--no-decoration type--white">
+                            Boardello
+                          </h2>
+                          <p className="type--gray-dark emphasis">
+                            A collaboration canvas for gathering, sharing &amp;
+                            discussing creative inspiration across teams.
+                          </p>
+                        </div>
+                        <div className="col-sm-12 col-md-3">
+                          <p className="type--right type--gray-dark">
+                            <em>Coming Soon</em>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-    </section>
+          </div>
+        </section>
+      </section>
 
-    <section style={{paddingBottom: "100px"}}>
+      <section
+        className="bg--white"
+        style={{ paddingTop: "150px", paddingBottom: "100px" }}
+      >
         <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-sm-6 col-lg-4 col-xl-3">
-                    <img className="img--fluid" style={{marginBottom: "20px"}} src="/imgs/dribbbs/mood1.png" alt="" />
-                </div>
-                <div className="col-sm-6 col-lg-4 col-xl-3">
-                    <img className="img--fluid" style={{marginBottom: "20px"}} src="/imgs/dribbbs/ims.png" alt="" />
-                </div>
-                <div className="col-sm-6 col-lg-4 col-xl-3">
-                    <img className="img--fluid" style={{marginBottom: "20px"}} src="/imgs/dribbbs/mood2.png" alt="" />
-                </div>
-                <div className="col-sm-6 col-lg-4 col-xl-3">
-                    <img className="img--fluid" style={{marginBottom: "20px"}} src="/imgs/test.gif" alt="" />
-                </div>
-                <div className="col-sm-6 col-lg-4 col-xl-3">
-                    <img className="img--fluid" style={{marginBottom: "20px"}} src="/imgs/test-2.gif" alt="" />
-                </div>
-                <div className="col-sm-6 col-lg-4 col-xl-3">
-                    <img className="img--fluid" style={{marginBottom: "20px"}} src="/imgs/dribbbs/mood3.png" alt="" />
-                </div>
+          <div className="row">
+            <div className="col-lg-8">
+              <h1 className="type--black">
+                <div>That’s All Folks.</div>
+                <div>Let’s Chat!</div>
+              </h1>
+              <p className="type--black intro" style={{ borderColor: "#fff" }}>
+                Hi! I'm Alex Hernandez, a designer and software engineer based
+                in Los Angeles, CA. I enjoy collaborating with brands of any
+                size that have passion and purpose.
+              </p>
+              <p className="type--black emphasis">
+                Product Designer &middot; Software Engineer
+              </p>
             </div>
-        </div>
-    </section>
+            <div className="col-lg-3 offset-lg-1 type--right">
+              <h4 className="type--black">Social</h4>
+              <ul className="list--unstyled list--inline social type--black">
+                <li>
+                  <a
+                    className="icon ion-logo-github"
+                    href="https://github.com/alexhernandez"
+                    target="_blank"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    className="icon ion-logo-dribbble"
+                    href="https://dribbble.com/alexhernandez"
+                    target="_blank"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    className="icon ion-logo-linkedin"
+                    href="https://linkedin.com/in/alex-hdz"
+                    target="_blank"
+                  ></a>
+                </li>
+              </ul>
 
-    <section className="bg--red" style={{paddingTop: "150px", paddingBottom: "100px"}}>
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-8">
-                    <h1 className="type--white"><div>That’s All Folks.</div><div>Let’s Chat!</div></h1>
-                    <p className="type--white intro" style={{borderColor: "#fff"}}>Hi! I'm Alex Hernandez, a designer based in Los Angeles, CA. I enjoy collaborating with brands of any size that have passion and purpose.</p>
-                    <p className="type--navy emphasis">Product Designer &middot; Front End Developer &middot; Entrepreneur</p>
-                </div>
-                <div className="col-lg-3 offset-lg-1 type--right">
-                    <h4 className="type--navy">Social</h4>
-                    <ul className="list--unstyled list--inline social type--white">
-                        <li><a className="icon ion-logo-github" href="https://github.com/alexhernandez" target="_blank"></a></li>
-                        <li><a className="icon ion-logo-dribbble" href="https://dribbble.com/alexhernandez" target="_blank"></a></li>
-                        <li><a className="icon ion-logo-linkedin" href="https://linkedin.com/in/alex-hdz" target="_blank"></a></li>
-                    </ul>
-                    
-                    <br/>
+              <br />
 
-                    <h4 className="type--navy">Contact</h4>
-                    <ul className="list--unstyled type--white">
-                        <li><a href="mailto:hi@alejandrohernandez.me">hi@alejandrohernandez.me</a></li>
-                    </ul>
-                </div>
+              <h4 className="type--black">Contact</h4>
+              <ul className="list--unstyled type--black">
+                <li>
+                  <a href="mailto:hi@alejandrohernandez.me">
+                    hi@alejandrohernandez.me
+                  </a>
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
-    </section>
+      </section>
     </div>
-  )
+  );
 }
