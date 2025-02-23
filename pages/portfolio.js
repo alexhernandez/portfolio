@@ -76,7 +76,7 @@ export default function Portfolio() {
                                 <div className="row">
                                     <div className="col-sm-12 col-md-9">
                                         <h2>Boardello</h2>
-                                        <p className="type--gray-dark emphasis">A collaboration canvas for gathering, sharing &amp discussing creative inspiration across teams.</p>
+                                        <p className="type--gray-dark emphasis">A collaboration canvas for gathering, sharing &amp; discussing creative inspiration across teams.</p>
                                     </div>
                                     <div className="col-sm-12 col-md-3">
                                         <p className="type--right type--gray-dark"><em>Coming Soon</em></p>
@@ -105,7 +105,7 @@ export default function Portfolio() {
                         <li><a className="icon ion-logo-dribbble" href="https://dribbble.com/alexhernandez" target="_blank"></a></li>
                         <li><a className="icon ion-logo-linkedin" href="https://linkedin.com/in/alex-hdz" target="_blank"></a></li>
                     </ul>
-                    
+
                     <br/>
 
                     <h4 className="type--navy">Contact</h4>
