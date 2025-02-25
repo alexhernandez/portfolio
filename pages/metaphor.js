@@ -9,10 +9,13 @@ export default function Metaphor() {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>Alex Hernandez | Product Designer &amp; Software Engineer</title>
+        <title>
+          CSUN Metaphor | Alex Hernandez - Product Designer &amp; Software
+          Engineer
+        </title>
         <meta
           name="description"
-          content="Los Angeles based Product Designer & Software Engineer. I help people design products that transform and elevate their everyday life."
+          content="A design system built from the ground up to ensure all web &amp; mobile apps maintain consistency with CSU Northridge (CSUN) branding and identity standards."
         />
 
         <link rel="shortcut icon" type="image/png" href="/imgs/favicon.png" />
@@ -73,7 +76,7 @@ export default function Metaphor() {
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
-              <h1 className="type--white type--display">Metaphor</h1>
+              <h1 className="type--white type--display">CSUN Metaphor</h1>
               <p className="type--white intro">
                 A design system built from the ground up to ensure all web &amp;
                 mobile apps maintain consistency with CSU Northridge (CSUN)
@@ -100,6 +103,15 @@ export default function Metaphor() {
               <h5 className="type--red">Platforms</h5>
               <ul className="list--unstyled type--white">
                 <li>Web, Android &amp; iOS</li>
+              </ul>
+              <h5 className="type--red">Resources</h5>
+              <ul className="list--unstyled type--white">
+                <li>
+                  <a href="https://itdocs.csun.edu/metaphor" target="_blank">
+                    CSUN Metaphor{" "}
+                  </a>
+                  <span className="icon ion-md-share" />
+                </li>
               </ul>
             </div>
           </div>

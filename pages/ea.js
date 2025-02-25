@@ -9,10 +9,13 @@ export default function Metaphor() {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>Alex Hernandez | Product Designer &amp; Software Engineer</title>
+        <title>
+          EA SPORTS App | Alex Hernandez - Product Designer &amp; Software
+          Engineer
+        </title>
         <meta
           name="description"
-          content="Los Angeles based Product Designer & Software Engineer. I help people design products that transform and elevate their everyday life."
+          content="Made for a new generation of sport fans."
         />
 
         <link rel="shortcut icon" type="image/png" href="/imgs/favicon.png" />
@@ -73,11 +76,13 @@ export default function Metaphor() {
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
-              <h1 className="type--white type--display">
-                EA SPORTS App
-              </h1>
-              <p className="type--white intro">Made for a new generation of sport fans.</p>
-              <p className="type--red emphasis">Manager &middot; Mobile Engineer</p>
+              <h1 className="type--white type--display">EA SPORTS App</h1>
+              <p className="type--white intro">
+                Made for a new generation of sport fans.
+              </p>
+              <p className="type--red emphasis">
+                Manager &middot; Mobile Engineer
+              </p>
             </div>
             <div className="col-lg-3 offset-lg-1 type--right">
               <h5 className="type--red">Client</h5>
@@ -93,6 +98,18 @@ export default function Metaphor() {
               <h5 className="type--red">Platforms</h5>
               <ul className="list--unstyled type--white">
                 <li>Android &amp; iOS</li>
+              </ul>
+              <h5 className="type--red">Resources</h5>
+              <ul className="list--unstyled type--white">
+                <li>
+                  <a
+                    href="https://www.ea.com/news/introducing-the-ea-sports-app"
+                    target="_blank"
+                  >
+                    THE EA SPORTS APP{" "}
+                  </a>
+                  <span className="icon ion-md-share" />
+                </li>
               </ul>
             </div>
           </div>
@@ -123,7 +140,14 @@ export default function Metaphor() {
         </div>
       </section> */}
 
-      <section style={{ paddingTop: "25px", paddingBottom: "25px", background: "linear-gradient(180deg, rgba(3,93,254,1) 0%, rgba(3,93,254,1) 75%, rgba(0,83,250,1) 100%)" }}>
+      <section
+        style={{
+          paddingTop: "25px",
+          paddingBottom: "25px",
+          background:
+            "linear-gradient(180deg, rgba(3,93,254,1) 0%, rgba(3,93,254,1) 75%, rgba(0,83,250,1) 100%)",
+        }}
+      >
         <div className="container-fluid type--center">
           <div className="row">
             <div className="col-md-8 offset-md-2">

@@ -9,10 +9,13 @@ export default function Metaphor() {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>Alex Hernandez | Product Designer &amp; Software Engineer</title>
+        <title>
+          Call of Duty Companion App | Alex Hernandez - Product Designer &amp;
+          Software Engineer
+        </title>
         <meta
           name="description"
-          content="Los Angeles based Product Designer & Software Engineer. I help people design products that transform and elevate their everyday life."
+          content="The Call of Duty Companion App: your definitive, 24/7 connection to all things Call of Duty. Analyze your performance after every battle, connect with friends across platforms and see when they’re playing. Track your friends’ performance and compare stats and achievements, then team up with your Squad to compete in weekly tournaments for in-game prizes. Plus, get heatmaps, stats, and informational updates from the Call of Duty team to grow your skills and stay ahead of the curve."
         />
 
         <link rel="shortcut icon" type="image/png" href="/imgs/favicon.png" />
@@ -77,10 +80,18 @@ export default function Metaphor() {
                 Call of Duty: Companion App
               </h1>
               <p className="type--white intro">
-                Play smarter, win more, and stay connected to the world of Call
-                of Duty, wherever you go.
+                The Call of Duty Companion App: your definitive, 24/7 connection
+                to all things Call of Duty. Analyze your performance after every
+                battle, connect with friends across platforms and see when
+                they're playing. Track your friends' performance and compare
+                stats and achievements, then team up with your Squad to compete
+                in weekly tournaments for in-game prizes. Plus, get heatmaps,
+                stats, and informational updates from the Call of Duty team to
+                grow your skills and stay ahead of the curve.
               </p>
-              <p className="type--red emphasis">Manager &middot; Mobile Engineer</p>
+              <p className="type--red emphasis">
+                Manager &middot; Mobile Engineer
+              </p>
             </div>
             <div className="col-lg-3 offset-lg-1 type--right">
               <h5 className="type--red">Client</h5>
@@ -96,6 +107,18 @@ export default function Metaphor() {
               <h5 className="type--red">Platforms</h5>
               <ul className="list--unstyled type--white">
                 <li>Web, Android &amp; iOS</li>
+              </ul>
+              <h5 className="type--red">Resources</h5>
+              <ul className="list--unstyled type--white">
+                <li>
+                  <a
+                    href="https://www.callofduty.com/blog/2018-09/welcome"
+                    target="_blank"
+                  >
+                    COD: Companion App{" "}
+                  </a>
+                  <span className="icon ion-md-share" />
+                </li>
               </ul>
             </div>
           </div>

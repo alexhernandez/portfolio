@@ -9,7 +9,7 @@ export default function Articles() {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>Alex Hernandez | Product Designer &amp; Software Engineer</title>
+        <title>Alex Hernandez - Product Designer &amp; Software Engineer</title>
         <meta
           name="description"
           content="Los Angeles based Product Designer & Software Engineer. I help people design products that transform and elevate their everyday life."
