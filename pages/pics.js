@@ -9,20 +9,47 @@ export default function Home() {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+
         <title>
           Pics | Alex Hernandez - Product Designer &amp; Software Engineer
         </title>
         <meta
+          property="og:title"
+          content="Pics | Alex Hernandez - Product Designer &amp; Software Engineer"
+        />
+
+        <meta
           name="description"
           content="Los Angeles based Product Designer & Software Engineer. I help people design products that transform and elevate their everyday life."
         />
+        <meta
+          property="og:description"
+          content="Los Angeles based Product Designer & Software Engineer. I help people design products that transform and elevate their everyday life."
+        />
 
+        <meta
+          name="keywords"
+          content="Engineering Manager, Software Engineer, Designer, Product Designer"
+        />
+
+        <meta
+          property="og:image"
+          content="https://alejandrohernandez.me/imgs/alex.png"
+        />
         <link rel="shortcut icon" type="image/png" href="/imgs/favicon.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="imgs/apple-touch-icon.png"
+        />
+
+        <meta property="og:url" content="https://alejandrohernandez.me/pics" />
+        <meta property="og:type" content="website" />
+
         <link
           rel="stylesheet"
           href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css"
         />
-
         <link rel="stylesheet" href="https://use.typekit.net/nmj3qua.css" />
         <link
           rel="stylesheet"

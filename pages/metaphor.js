@@ -9,21 +9,51 @@ export default function Metaphor() {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+
         <title>
           CSUN Metaphor | Alex Hernandez - Product Designer &amp; Software
           Engineer
         </title>
         <meta
+          property="og:title"
+          content="CSUN Metaphor | Alex Hernandez - Product Designer &amp; Software Engineer"
+        />
+
+        <meta
           name="description"
           content="A design system built from the ground up to ensure all web &amp; mobile apps maintain consistency with CSU Northridge (CSUN) branding and identity standards."
         />
+        <meta
+          property="og:description"
+          content="A design system built from the ground up to ensure all web &amp; mobile apps maintain consistency with CSU Northridge (CSUN) branding and identity standards."
+        />
 
+        <meta
+          name="keywords"
+          content="Engineering Manager, Software Engineer, Designer, Product Designer"
+        />
+
+        <meta
+          property="og:image"
+          content="https://alejandrohernandez.me/imgs/results.png"
+        />
         <link rel="shortcut icon" type="image/png" href="/imgs/favicon.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="imgs/apple-touch-icon.png"
+        />
+
+        <meta
+          property="og:url"
+          content="https://alejandrohernandez.me/metaphor"
+        />
+        <meta property="og:type" content="website" />
+
         <link
           rel="stylesheet"
           href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css"
         />
-
         <link rel="stylesheet" href="https://use.typekit.net/nmj3qua.css" />
         <link
           rel="stylesheet"

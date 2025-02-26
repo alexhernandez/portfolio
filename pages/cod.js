@@ -9,21 +9,48 @@ export default function Metaphor() {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+
         <title>
-          Call of Duty Companion App | Alex Hernandez - Product Designer &amp;
+          Call of Duty: Companion App | Alex Hernandez - Product Designer &amp;
           Software Engineer
         </title>
+        <meta
+          property="og:title"
+          content="Call of Duty: Companion App | Alex Hernandez - Product Designer &amp; Software Engineer"
+        />
+
         <meta
           name="description"
           content="The Call of Duty Companion App: your definitive, 24/7 connection to all things Call of Duty. Analyze your performance after every battle, connect with friends across platforms and see when they’re playing. Track your friends’ performance and compare stats and achievements, then team up with your Squad to compete in weekly tournaments for in-game prizes. Plus, get heatmaps, stats, and informational updates from the Call of Duty team to grow your skills and stay ahead of the curve."
         />
+        <meta
+          property="og:description"
+          content="The Call of Duty Companion App: your definitive, 24/7 connection to all things Call of Duty. Analyze your performance after every battle, connect with friends across platforms and see when they’re playing. Track your friends’ performance and compare stats and achievements, then team up with your Squad to compete in weekly tournaments for in-game prizes. Plus, get heatmaps, stats, and informational updates from the Call of Duty team to grow your skills and stay ahead of the curve."
+        />
 
+        <meta
+          name="keywords"
+          content="Engineering Manager, Software Engineer, Designer, Product Designer"
+        />
+
+        <meta
+          property="og:image"
+          content="https://alejandrohernandez.me/imgs/CallOfDuty.png"
+        />
         <link rel="shortcut icon" type="image/png" href="/imgs/favicon.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="imgs/apple-touch-icon.png"
+        />
+
+        <meta property="og:url" content="https://alejandrohernandez.me/cod" />
+        <meta property="og:type" content="website" />
+
         <link
           rel="stylesheet"
           href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css"
         />
-
         <link rel="stylesheet" href="https://use.typekit.net/nmj3qua.css" />
         <link
           rel="stylesheet"
