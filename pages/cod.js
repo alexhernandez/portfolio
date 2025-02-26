@@ -38,7 +38,7 @@ export default function Metaphor() {
         <div className="container">
           <div className="navigation">
             <div className="row align-items-center">
-              <div className="col-6">
+              <div className="col-5">
                 <div className="brand type--white">
                   <Link href="/">
                     <div className="logo">
@@ -52,7 +52,7 @@ export default function Metaphor() {
                   </Link>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-7">
                 <ul className="list--unstyled nav__list type--white">
                   <li>
                     <Link href="/">
