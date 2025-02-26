@@ -38,14 +38,21 @@ export default function Metaphor() {
         <div className="container">
           <div className="navigation">
             <div className="row align-items-center">
-              <div className="col-sm-6">
+              <div className="col-6">
                 <div className="brand type--white">
                   <Link href="/">
-                    <a>Alex Hernandez</a>
+                    <div className="logo">
+                      <img
+                        className="img-avatar--mini"
+                        src="/imgs/alex.png"
+                        alt="Alex Hernandez"
+                      />
+                      Alex Hernandez
+                    </div>
                   </Link>
                 </div>
               </div>
-              <div className="col-sm-6">
+              <div className="col-6">
                 <ul className="list--unstyled nav__list type--white">
                   <li>
                     <Link href="/">
@@ -58,8 +65,8 @@ export default function Metaphor() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/inspiration">
-                      <a>Inspiration</a>
+                    <Link href="/quotes">
+                      <a>Quotes</a>
                     </Link>
                   </li>
                 </ul>
@@ -69,10 +76,7 @@ export default function Metaphor() {
         </div>
       </nav>
 
-      <section
-        className="bg--black"
-        style={{ paddingTop: "150px", paddingBottom: "100px" }}
-      >
+      <section className="bg--black hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
@@ -151,7 +155,11 @@ export default function Metaphor() {
         <div className="container-fluid type--center">
           <div className="row">
             <div className="col-md-8 offset-md-2">
-              <img className="img--fluid" src="/imgs/ea-app.png" alt="" />
+              <img
+                className="img--fluid"
+                src="/imgs/ea-app.png"
+                alt="The EA SPORTS App"
+              />
             </div>
           </div>
         </div>
@@ -165,8 +173,8 @@ export default function Metaphor() {
           <div className="row">
             <div className="col-lg-8">
               <h1 className="type--white">
-                <div>That’s All Folks.</div>
-                <div>Let’s Chat!</div>
+                <div>That's All Folks.</div>
+                <div>Let's Chat!</div>
               </h1>
               <p className="type--white intro" style={{ borderColor: "#fff" }}>
                 Hi! I'm Alex Hernandez, a designer and software engineer based

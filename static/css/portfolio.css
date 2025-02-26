@@ -329,8 +329,8 @@ a {
 }
 
 body {
-  background: #fa5457;
-  color: #0e2b3c;
+  background: #fff;
+  color: #000;
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.4;
@@ -453,30 +453,22 @@ small {
   padding-bottom: 10px;
 }
 
+.logo {
+  cursor: pointer;
+}
+
 .brand {
   font-family: "din-2014", Arial, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 10px;
-}
-@media (min-width: 992px) {
-  .brand {
-    margin-bottom: auto;
-    text-align: left;
-  }
+  text-align: left;
 }
 
 .nav__list {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: center;
-}
-@media (min-width: 992px) {
-  .nav__list {
-    text-align: right;
-  }
+  text-align: right;
 }
 .nav__list li {
   display: inline-block;
@@ -485,6 +477,16 @@ small {
   display: block;
   padding: 0 5px;
   margin: 0;
+}
+
+.hero {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+@media (min-width: 992px) {
+  .hero {
+    padding-top: 150px;
+  }
 }
 
 .bg--white {
@@ -567,13 +569,26 @@ small {
 }
 @media (min-width: 992px) {
   .type--header {
-    padding-top: 25vh;
-    padding-bottom: 25vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
   }
 }
 
 .type--no-decoration:hover {
   text-decoration: none;
+}
+
+.img-avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+
+.img-avatar--mini {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-right: 15px;
 }
 
 .img--fluid {

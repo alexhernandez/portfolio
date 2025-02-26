@@ -9,7 +9,9 @@ export default function Articles() {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>Alex Hernandez - Product Designer &amp; Software Engineer</title>
+        <title>
+          Articles | Alex Hernandez - Product Designer &amp; Software Engineer
+        </title>
         <meta
           name="description"
           content="Los Angeles based Product Designer & Software Engineer. I help people design products that transform and elevate their everyday life."
@@ -34,6 +36,11 @@ export default function Articles() {
       <section className="type--header bg--white">
         <div className="container type--center">
           <div className="row">
+            <div className="col-sm-12">
+              <img className="img-avatar" src="/imgs/alex.png" alt="Alex Hernandez" />
+            </div>
+          </div>
+          <div className="row">
             <div className="col-md-8 offset-md-2">
               <h1 className="type--display type--black">Alex Hernandez</h1>
               <p className="intro type--gray-dark">
@@ -41,6 +48,11 @@ export default function Articles() {
                 CA
               </p>
               <ul className="list--unstyled list--inline pills type--red">
+                {/* <li>
+                  <Link href="/pics">
+                    <a>Pics</a>
+                  </Link>
+                </li> */}
                 <li>
                   <Link href="/">
                     <a>Portfolio</a>
@@ -52,8 +64,8 @@ export default function Articles() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/inspiration">
-                    <a>Inspiration</a>
+                  <Link href="/quotes">
+                    <a>Quotes</a>
                   </Link>
                 </li>
               </ul>
@@ -62,69 +74,73 @@ export default function Articles() {
         </div>
       </section>
 
-      <section
-        className="bg--white border-radius"
-        style={{ paddingBottom: "100px" }}
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-8 offset-lg-2">
-              <div className="row">
-                <div className="col-sm-12">
-                  <div style={{ padding: "20px" }}>
-                    <div className="row">
-                      <div className="col-sm-12">
-                        <h2>
-                          <a
-                            className="type--no-decoration type--black"
-                            target="_blank"
-                            href="https://medium.com/@oorangecchicken/making-sense-of-device-resolution-pixel-density-40922aeb8a6"
-                          >
-                            Making Sense of Device Resolution &amp; Pixel
-                            Density
-                          </a>
-                        </h2>
-                        <p className="type--gray-dark emphasis">
-                          June 11, 2018 &middot; 5min Read
-                        </p>
-                        <p className="type--red">
-                          <a
-                            target="_blank"
-                            href="https://medium.com/@oorangecchicken/making-sense-of-device-resolution-pixel-density-40922aeb8a6"
-                          >
-                            Read Article on Medium &rarr;
-                          </a>
-                        </p>
+      <section className="bg--black">
+        <section
+          className="bg--white border-radius"
+          style={{ paddingBottom: "100px" }}
+        >
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 offset-lg-2">
+                <div className="row">
+                  <div className="col-sm-12">
+                    <div style={{ padding: "20px" }}>
+                      <div className="row">
+                        <div className="col-sm-12">
+                          <h2>
+                            <a
+                              className="type--no-decoration type--black"
+                              target="_blank"
+                              href="https://medium.com/@oorangecchicken/making-sense-of-device-resolution-pixel-density-40922aeb8a6"
+                            >
+                              Making Sense of Device Resolution &amp; Pixel
+                              Density
+                            </a>
+                          </h2>
+                          <p className="type--gray-dark emphasis">
+                            June 11, 2018 &middot; 5min Read
+                          </p>
+                          <p className="type--red">
+                            <a
+                              target="_blank"
+                              href="https://medium.com/@oorangecchicken/making-sense-of-device-resolution-pixel-density-40922aeb8a6"
+                            >
+                              Read Article on Medium &rarr;
+                            </a>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="row">
-                <div className="col-sm-12">
-                  <div style={{ borderTop: "1px solid #ccc", padding: "20px" }}>
-                    <div className="row">
-                      <div className="col-sm-12">
-                        <h2>
-                          <a
-                            className="type--no-decoration type--black"
-                            target="_blank"
-                            href="https://medium.com/csun-metalab/creating-a-simple-mobile-first-grid-system-1e883a85fa3f"
-                          >
-                            Creating A Simple Mobile-first Grid System
-                          </a>
-                        </h2>
-                        <p className="type--gray-dark emphasis">
-                          January 26, 2018 &middot; 5min Read
-                        </p>
-                        <p className="type--red">
-                          <a
-                            target="_blank"
-                            href="https://medium.com/csun-metalab/creating-a-simple-mobile-first-grid-system-1e883a85fa3f"
-                          >
-                            Read Article on Medium &rarr;
-                          </a>
-                        </p>
+                <div className="row">
+                  <div className="col-sm-12">
+                    <div
+                      style={{ borderTop: "1px solid #ccc", padding: "20px" }}
+                    >
+                      <div className="row">
+                        <div className="col-sm-12">
+                          <h2>
+                            <a
+                              className="type--no-decoration type--black"
+                              target="_blank"
+                              href="https://medium.com/csun-metalab/creating-a-simple-mobile-first-grid-system-1e883a85fa3f"
+                            >
+                              Creating A Simple Mobile-first Grid System
+                            </a>
+                          </h2>
+                          <p className="type--gray-dark emphasis">
+                            January 26, 2018 &middot; 5min Read
+                          </p>
+                          <p className="type--red">
+                            <a
+                              target="_blank"
+                              href="https://medium.com/csun-metalab/creating-a-simple-mobile-first-grid-system-1e883a85fa3f"
+                            >
+                              Read Article on Medium &rarr;
+                            </a>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -132,31 +148,31 @@ export default function Articles() {
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </section>
 
       <section
-        className="bg--red"
+        className="bg--black"
         style={{ paddingTop: "150px", paddingBottom: "100px" }}
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
               <h1 className="type--white">
-                <div>That’s All Folks.</div>
-                <div>Let’s Chat!</div>
+                <div>That's All Folks.</div>
+                <div>Let's Chat!</div>
               </h1>
               <p className="type--white intro" style={{ borderColor: "#fff" }}>
                 Hi! I'm Alex Hernandez, a designer and software engineer based
                 in Los Angeles, CA. I enjoy collaborating with brands of any
                 size that have passion and purpose.
               </p>
-              <p className="type--white emphasis">
+              <p className="type--red emphasis">
                 Product Designer &middot; Software Engineer
               </p>
             </div>
             <div className="col-lg-3 offset-lg-1 type--right">
-              <h4 className="type--white">Social</h4>
+              <h4 className="type--red">Social</h4>
               <ul className="list--unstyled list--inline social type--white">
                 <li>
                   <a
@@ -183,7 +199,7 @@ export default function Articles() {
 
               <br />
 
-              <h4 className="type--white">Contact</h4>
+              <h4 className="type--red">Contact</h4>
               <ul className="list--unstyled type--white">
                 <li>
                   <a href="mailto:hi@alejandrohernandez.me">

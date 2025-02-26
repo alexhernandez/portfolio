@@ -38,14 +38,21 @@ export default function Metaphor() {
         <div className="container">
           <div className="navigation">
             <div className="row align-items-center">
-              <div className="col-sm-6">
+              <div className="col-6">
                 <div className="brand type--white">
                   <Link href="/">
-                    <a>Alex Hernandez</a>
+                    <div className="logo">
+                      <img
+                        className="img-avatar--mini"
+                        src="/imgs/alex.png"
+                        alt="Alex Hernandez"
+                      />
+                      Alex Hernandez
+                    </div>
                   </Link>
                 </div>
               </div>
-              <div className="col-sm-6">
+              <div className="col-6">
                 <ul className="list--unstyled nav__list type--white">
                   <li>
                     <Link href="/">
@@ -58,8 +65,8 @@ export default function Metaphor() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/inspiration">
-                      <a>Inspiration</a>
+                    <Link href="/quotes">
+                      <a>Quotes</a>
                     </Link>
                   </li>
                 </ul>
@@ -91,7 +98,6 @@ export default function Metaphor() {
               <h5 className="type--red">Clients</h5>
               <ul className="list--unstyled type--white">
                 <li>META+LAB</li>
-                <li>Academic Affairs</li>
                 <li>CSU Northridge</li>
               </ul>
               <h5 className="type--red">Tech Stack</h5>
@@ -387,7 +393,11 @@ export default function Metaphor() {
         <div className="container-fluid type--center">
           <div className="row">
             <div className="col-sm-12">
-              <img className="img--fluid" src="/imgs/results.png" alt="" />
+              <img
+                className="img--fluid"
+                src="/imgs/results.png"
+                alt="CSUN Metaphor"
+              />
             </div>
           </div>
         </div>
@@ -401,8 +411,8 @@ export default function Metaphor() {
           <div className="row">
             <div className="col-lg-8">
               <h1 className="type--white">
-                <div>That’s All Folks.</div>
-                <div>Let’s Chat!</div>
+                <div>That's All Folks.</div>
+                <div>Let's Chat!</div>
               </h1>
               <p className="type--white intro" style={{ borderColor: "#fff" }}>
                 Hi! I'm Alex Hernandez, a designer and software engineer based

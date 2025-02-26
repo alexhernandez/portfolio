@@ -34,6 +34,15 @@ export default function Home() {
       <section className="type--header bg--black">
         <div className="container type--center">
           <div className="row">
+            <div className="col-sm-12">
+              <img
+                className="img-avatar"
+                src="/imgs/alex.png"
+                alt="Alex Hernandez"
+              />
+            </div>
+          </div>
+          <div className="row">
             <div className="col-md-8 offset-md-2">
               <h1 className="type--display type--white">Alex Hernandez</h1>
               <p className="intro type--gray-dark">
@@ -41,6 +50,11 @@ export default function Home() {
                 CA
               </p>
               <ul className="list--unstyled list--inline pills type--white">
+                {/* <li>
+                  <Link href="/pics">
+                    <a>Pics</a>
+                  </Link>
+                </li> */}
                 <li>
                   <Link href="/">
                     <a className="active">Portfolio</a>
@@ -52,8 +66,8 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/inspiration">
-                    <a>Inspiration</a>
+                  <Link href="/quotes">
+                    <a>Quotes</a>
                   </Link>
                 </li>
               </ul>
@@ -220,8 +234,8 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-8">
               <h1 className="type--black">
-                <div>That’s All Folks.</div>
-                <div>Let’s Chat!</div>
+                <div>That's All Folks.</div>
+                <div>Let's Chat!</div>
               </h1>
               <p className="type--black intro" style={{ borderColor: "#fff" }}>
                 Hi! I'm Alex Hernandez, a designer and software engineer based
