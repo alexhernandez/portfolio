@@ -155,6 +155,19 @@ small {
 
 .logo {
   cursor: pointer;
+  // margin-bottom: 20px;
+
+  // @media (min-width: 576px) {
+  //   margin-bottom: 0px;
+  // }
+
+  img {
+    display: none;
+
+    @media (min-width: 576px) {
+      display: inline;
+    }
+  }
 }
 
 .brand {
@@ -162,6 +175,10 @@ small {
   font-weight: 900;
   text-transform: uppercase;
   text-align: left;
+
+  // @media (min-width: 576px) {
+  //   text-align: left;
+  // }
 }
 
 .nav__list {
@@ -169,6 +186,10 @@ small {
   padding: 0;
   margin: 0;
   text-align: right;
+
+  // @media (min-width: 576px) {
+  //   text-align: right;
+  // }
 
   li {
     display: inline-block;

@@ -76,10 +76,7 @@ export default function Metaphor() {
         </div>
       </nav>
 
-      <section
-        className="bg--black"
-        style={{ paddingTop: "150px", paddingBottom: "100px" }}
-      >
+      <section className="bg--black hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
@@ -101,32 +98,38 @@ export default function Metaphor() {
               </p>
             </div>
             <div className="col-lg-3 offset-lg-1 type--right">
-              <h5 className="type--red">Client</h5>
-              <ul className="list--unstyled type--white">
-                <li>Activision</li>
-              </ul>
-              <h5 className="type--red">Tech Stack</h5>
-              <ul className="list--unstyled type--white">
-                <li>JavaScript</li>
-                <li>Vue/React/React Native</li>
-                <li>HTML &amp; CSS</li>
-              </ul>
-              <h5 className="type--red">Platforms</h5>
-              <ul className="list--unstyled type--white">
-                <li>Web, Android &amp; iOS</li>
-              </ul>
-              <h5 className="type--red">Resources</h5>
-              <ul className="list--unstyled type--white">
-                <li>
-                  <a
-                    href="https://www.callofduty.com/blog/2018-09/welcome"
-                    target="_blank"
-                  >
-                    COD: Companion App{" "}
-                  </a>
-                  <span className="icon ion-md-share" />
-                </li>
-              </ul>
+              <div className="row">
+                <div className="col-6 col-lg-12">
+                  <h5 className="type--red">Client</h5>
+                  <ul className="list--unstyled type--white">
+                    <li>Activision</li>
+                  </ul>
+                  <h5 className="type--red">Tech Stack</h5>
+                  <ul className="list--unstyled type--white">
+                    <li>JavaScript</li>
+                    <li>Vue/React/React Native</li>
+                    <li>HTML &amp; CSS</li>
+                  </ul>
+                </div>
+                <div className="col-6 col-lg-12">
+                  <h5 className="type--red">Platforms</h5>
+                  <ul className="list--unstyled type--white">
+                    <li>Web, Android &amp; iOS</li>
+                  </ul>
+                  <h5 className="type--red">Resources</h5>
+                  <ul className="list--unstyled type--white">
+                    <li>
+                      <a
+                        href="https://www.callofduty.com/blog/2018-09/welcome"
+                        target="_blank"
+                      >
+                        COD: Companion App{" "}
+                      </a>
+                      <span className="icon ion-md-share" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>

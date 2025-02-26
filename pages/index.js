@@ -89,9 +89,9 @@ export default function Home() {
                     <div style={{ padding: "20px" }}>
                       <div className="row">
                         <div className="col-sm-12 col-md-9">
-                          <h2>
+                          <h2 className="type--white">
                             <Link href="/ea">
-                              <a className="type--no-decoration type--white">
+                              <a className="type--no-decoration">
                                 EA SPORTS App
                               </a>
                             </Link>
@@ -118,9 +118,9 @@ export default function Home() {
                     >
                       <div className="row">
                         <div className="col-sm-12 col-md-9">
-                          <h2>
+                          <h2 className="type--white">
                             <Link href="/cod">
-                              <a className="type--no-decoration type--white">
+                              <a className="type--no-decoration">
                                 Call of Duty: Companion App
                               </a>
                             </Link>
@@ -148,9 +148,9 @@ export default function Home() {
                     >
                       <div className="row">
                         <div className="col-sm-12 col-md-9">
-                          <h2>
+                          <h2 className="type--white">
                             <Link href="/metaphor">
-                              <a className="type--no-decoration type--white">
+                              <a className="type--no-decoration">
                                 CSUN Metaphor
                               </a>
                             </Link>

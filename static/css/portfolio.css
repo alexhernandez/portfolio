@@ -456,6 +456,14 @@ small {
 .logo {
   cursor: pointer;
 }
+.logo img {
+  display: none;
+}
+@media (min-width: 576px) {
+  .logo img {
+    display: inline;
+  }
+}
 
 .brand {
   font-family: "din-2014", Arial, sans-serif;

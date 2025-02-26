@@ -76,10 +76,7 @@ export default function Metaphor() {
         </div>
       </nav>
 
-      <section
-        className="bg--black"
-        style={{ paddingTop: "150px", paddingBottom: "100px" }}
-      >
+      <section className="bg--black hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
@@ -90,35 +87,44 @@ export default function Metaphor() {
                 branding and identity standards.
               </p>
               <p className="type--red emphasis">
-                <span>Product Owner</span> &middot; Product Designer &middot;
-                Front End Developer &middot; Mentor
+                Product Owner &middot; Product Designer &middot; Front End
+                Developer
               </p>
             </div>
             <div className="col-lg-3 offset-lg-1 type--right">
-              <h5 className="type--red">Clients</h5>
-              <ul className="list--unstyled type--white">
-                <li>META+LAB</li>
-                <li>CSU Northridge</li>
-              </ul>
-              <h5 className="type--red">Tech Stack</h5>
-              <ul className="list--unstyled type--white">
-                <li>JavaScript</li>
-                <li>Vue/React/React Native</li>
-                <li>PHP, HTML &amp; CSS</li>
-              </ul>
-              <h5 className="type--red">Platforms</h5>
-              <ul className="list--unstyled type--white">
-                <li>Web, Android &amp; iOS</li>
-              </ul>
-              <h5 className="type--red">Resources</h5>
-              <ul className="list--unstyled type--white">
-                <li>
-                  <a href="https://itdocs.csun.edu/metaphor" target="_blank">
-                    CSUN Metaphor{" "}
-                  </a>
-                  <span className="icon ion-md-share" />
-                </li>
-              </ul>
+              <div className="row">
+                <div className="col-6 col-lg-12">
+                  <h5 className="type--red">Clients</h5>
+                  <ul className="list--unstyled type--white">
+                    <li>META+LAB</li>
+                    <li>CSU Northridge</li>
+                  </ul>
+                  <h5 className="type--red">Tech Stack</h5>
+                  <ul className="list--unstyled type--white">
+                    <li>JavaScript</li>
+                    <li>Vue/React/React Native</li>
+                    <li>PHP, HTML &amp; CSS</li>
+                  </ul>
+                </div>
+                <div className="col-6 col-lg-12">
+                  <h5 className="type--red">Platforms</h5>
+                  <ul className="list--unstyled type--white">
+                    <li>Web, Android &amp; iOS</li>
+                  </ul>
+                  <h5 className="type--red">Resources</h5>
+                  <ul className="list--unstyled type--white">
+                    <li>
+                      <a
+                        href="https://itdocs.csun.edu/metaphor"
+                        target="_blank"
+                      >
+                        CSUN Metaphor{" "}
+                      </a>
+                      <span className="icon ion-md-share" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>

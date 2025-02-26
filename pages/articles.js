@@ -37,7 +37,11 @@ export default function Articles() {
         <div className="container type--center">
           <div className="row">
             <div className="col-sm-12">
-              <img className="img-avatar" src="/imgs/alex.png" alt="Alex Hernandez" />
+              <img
+                className="img-avatar"
+                src="/imgs/alex.png"
+                alt="Alex Hernandez"
+              />
             </div>
           </div>
           <div className="row">

@@ -89,32 +89,38 @@ export default function Metaphor() {
               </p>
             </div>
             <div className="col-lg-3 offset-lg-1 type--right">
-              <h5 className="type--red">Client</h5>
-              <ul className="list--unstyled type--white">
-                <li>Electronic Arts (EA)</li>
-              </ul>
-              <h5 className="type--red">Tech Stack</h5>
-              <ul className="list--unstyled type--white">
-                <li>TypeScript</li>
-                <li>React/React Native</li>
-                <li>Swift &amp; Kotlin</li>
-              </ul>
-              <h5 className="type--red">Platforms</h5>
-              <ul className="list--unstyled type--white">
-                <li>Android &amp; iOS</li>
-              </ul>
-              <h5 className="type--red">Resources</h5>
-              <ul className="list--unstyled type--white">
-                <li>
-                  <a
-                    href="https://www.ea.com/news/introducing-the-ea-sports-app"
-                    target="_blank"
-                  >
-                    THE EA SPORTS APP{" "}
-                  </a>
-                  <span className="icon ion-md-share" />
-                </li>
-              </ul>
+              <div className="row">
+                <div className="col-6 col-lg-12">
+                  <h5 className="type--red">Client</h5>
+                  <ul className="list--unstyled type--white">
+                    <li>Electronic Arts (EA)</li>
+                  </ul>
+                  <h5 className="type--red">Tech Stack</h5>
+                  <ul className="list--unstyled type--white">
+                    <li>TypeScript</li>
+                    <li>React/React Native</li>
+                    <li>Swift &amp; Kotlin</li>
+                  </ul>
+                </div>
+                <div className="col-6 col-lg-12">
+                  <h5 className="type--red">Platforms</h5>
+                  <ul className="list--unstyled type--white">
+                    <li>Android &amp; iOS</li>
+                  </ul>
+                  <h5 className="type--red">Resources</h5>
+                  <ul className="list--unstyled type--white">
+                    <li>
+                      <a
+                        href="https://www.ea.com/news/introducing-the-ea-sports-app"
+                        target="_blank"
+                      >
+                        THE EA SPORTS APP{" "}
+                      </a>
+                      <span className="icon ion-md-share" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
